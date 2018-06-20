@@ -1,7 +1,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background: gray;
+	background: #d0d0d0;
 }
 .top{
 	width: 100%;
@@ -14,6 +14,7 @@ html, body {
 	font-size: 35px;
 	padding-left: 55px;
 	padding-top: 10px;
+	color: black;
 }
 .bigA ::before { 
  	content: url(../NxtP/img/logo.png);
@@ -23,7 +24,31 @@ html, body {
 	text-decoration: none;
 	font-size: 20px;
 	padding-left: 10px;
-	padding-right: 10px; 
+	padding-right: 10px;
+	color: white 
+}
+.nav{
+	float: left;
+	padding-top: 5px;
+}
+.button{
+	float: right;
+	padding-top: 15px;
+	padding-right: 30px;
+}
+#check, #login{
+	color: white;
+	border: none;
+	width: 80px;
+	height: 20px;
+	text-align: right;
+}
+#check{
+	background: green;
+}
+#login{
+	background: blue;
+
 }
 .container{
 	width: 95%;
@@ -55,7 +80,7 @@ html, body {
 .mBlock {
     width: 30%;
     float: left;
-    margin-top: 50px;
+    margin-top: 35px;
     margin-left: 30px;
     padding-left: 10px;
     background: white;
