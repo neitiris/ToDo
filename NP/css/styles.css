@@ -1,0 +1,122 @@
+body, html{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.top, .container, .nav{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.container{
+	
+	background: #d2d2d2;
+	height: 100%;
+}
+
+.top{
+	height: 80px;
+	background-color: pink;
+}
+.top_home h1{
+    margin: 0;
+    padding: 0 18px;
+    font-size: 70px;
+    background: gray;
+    width: 270px;
+    color: black;
+}
+.nav{
+	background: black;
+
+}
+nav a {
+	color: white;
+	font-size: 150%;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-decoration: none;
+
+}
+nav{
+text-align: center;
+}
+
+.lBlock{
+	float: left;
+    width: 75%;
+}
+.bigImg{
+	height: 320px;
+	width: 1100px;
+}
+.lblock{
+    width: 76%;
+    float: left;
+    padding-left: 20px;
+}
+
+.lLBlock {
+    width: 46%;
+    float: left;	
+}
+.lRBlock {
+    width: 50%;
+    float: left;
+    background: black;
+    color: white;
+    margin-top: 40px;
+}
+
+.rMenu p{
+	margin-top: none;
+}
+
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+
+.date{
+	padding-top: 30px;
+}
+.date, .nTitle, .block{
+	font-size: 90%;
+	margin: 0; 
+}
+.readMore {
+    float: right;
+    background: black;
+    color: white;
+    height: 30px;
+}
+.title{
+	margin: 0;
+}
+
+.lRBlock {
+	width: 50%;
+	float: left;
+	background: black;
+	color: white; 
+}
+
+.blackTextImage{
+	width: 25%;
+	padding: 10px;
+	float: left;
+}
+
+.blackText{
+	float: left;
+	width: 70%;
+}
+.border{
+	border-bottom: 2px solid black;
+    float: right;
+    width: 327px;
+}
